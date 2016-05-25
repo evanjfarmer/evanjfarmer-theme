@@ -30,7 +30,7 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 //require_once(get_template_directory().'/assets/functions/editor-styles.php'); 
 
 // Related post function - no need to rely on plugins
-// require_once(get_template_directory().'/assets/functions/related-posts.php'); 
+require_once(get_template_directory().'/assets/functions/related-posts.php'); 
 
 // Use this as a template for custom post types
 // require_once(get_template_directory().'/assets/functions/custom-post-type.php');
@@ -39,4 +39,10 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 // require_once(get_template_directory().'/assets/functions/login.php'); 
 
 // Customize the WordPress admin
-// require_once(get_template_directory().'/assets/functions/admin.php'); 
+// require_once(get_template_directory().'/assets/functions/admin.php');
+
+//Custom changes
+function wpse_remove_edit_post_link( $link ) {
+return '';
+}
+add_filter('edit_post_link', 'wpse_remove_edit_post_link');

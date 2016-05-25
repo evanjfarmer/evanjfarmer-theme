@@ -328,3 +328,8 @@ to display none.
   .respond-form,
   nav {
     display: none; } }
+
+  /*Custom changes*/
+.about {
+  text-align: center;
+}
