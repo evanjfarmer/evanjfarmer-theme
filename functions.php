@@ -46,3 +46,40 @@ function wpse_remove_edit_post_link( $link ) {
 return '';
 }
 add_filter('edit_post_link', 'wpse_remove_edit_post_link');
+add_theme_support( 'custom-header' );
+$args = array(
+    'flex-width'    => true,
+    'width'         => 980,
+    'flex-height'    => true,
+    'height'        => 200,
+    'default-image' => get_template_directory_uri() . '/images/header.jpg',
+);
+add_theme_support( 'custom-header', $args );
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Home right sidebar',
+		'id'            => 'home_right_1',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+register_sidebar( array(
+  'name' => __( 'Header Widgets Area' ),
+  'id' => 'sidebar-header',
+  'description' => __( 'Header widgets area for my theme.' ,  'evanjfarmer' ),
+  'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+  'after_widget' => '</aside>',
+  'before_title' => '<h3 class="widget-title">',
+  'after_title' => '</h3>',
+) );
+

@@ -31,12 +31,12 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-
 	</head>
-	
-	<!-- Uncomment this line if using the Off-Canvas Menu --> 
+ 
 		
 	<body <?php body_class(); ?>>
+
+		<div id="alobaidi-fade-plugin"></div>
 
 		<div class="off-canvas-wrapper">
 			
@@ -51,5 +51,8 @@
 						 <!-- This navs will be applied to the topbar, above all content 
 							  To see additional nav styles, visit the /parts directory -->
 						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-		 	
+						 <div class="headerimg">
+						 <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="evanjfarmer webdev" />
+						 </div>
+						 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widgets Area') ) : endif; ?>
 					</header> <!-- end .header -->
