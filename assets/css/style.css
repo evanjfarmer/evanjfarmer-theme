@@ -330,17 +330,23 @@ to display none.
     display: none; } }
 
   /*Custom changes*/
-.about {
-  text-align: center;
+#top-bar-menu {
+  position: fixed;
+  z-index: auto;
+  width: 100%;
+  opacity: 0.7;
 }
-
-.entry-content img {
+.hollow.button {
+  position: absolute;
+  margin-top: 140px;
+}
+/*.entry-content img {
   border-radius: 3%;
 }
 .post img {
 opacity:0.5;
 filter:alpha(opacity=90); /* For IE8 and earlier */
-}
+
 .post img:hover{
 opacity:1.0;
 filter:alpha(opacity=90); /* For IE8 and earlier */
@@ -357,12 +363,44 @@ header, .full-width {
   width: 100%;
   background: #4780B1;
 }
+.headerimg {
+  margin-bottom: -175px;
+}
 .wrap {
   width: 70%;
   max-width: 24em;
   margin: 0 auto;
   padding-top: 0.25em;
 }
-.headerimg {
-  margin-bottom: -175px;
+.entry-content {
+  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/grid.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+@media only screen and (max-width: 1380px) {
+    .header_sidebar {
+      margin-top:100px;
+    }
+}
+@media only screen and (max-width: 1070px) {
+    .header_sidebar {
+      margin-top:150px;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .header_sidebar {
+    }
+}
+@media only screen and (max-width: 750px) {
+    .so-widget-sow-button-wire-dc733ea5a0ef .ow-button-base a{
+      width: 400px;
+    }
+}
+
+
+

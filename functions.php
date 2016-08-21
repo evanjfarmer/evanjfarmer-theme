@@ -83,3 +83,24 @@ register_sidebar( array(
   'after_title' => '</h3>',
 ) );
 
+if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+	'name' => 'Extra Header Widget Area',
+	'id' => 'extra-widget-area',
+	'description' => 'Extra widget area after the header',
+	'before_widget' => '<div class="widget my-extra-widget">',
+	'after_widget' => '</div>',
+	'before_title' => '<h2>',
+	'after_title' => '</h2>'
+	));
+}
+
+ function evanjfarmer_setup() {
+     register_nav_menu( 'primary-res-navigation', __( 'Primary MobRes Navigation', 'evanjfarmer' ) );
+ }
+ add_action( 'after_setup_theme', 'evanjfarmer_setup' );
+ $defaults = array(
+	'default-color'          => 'blue',
+	'default-image'          => 'http://www.evanjfarmer.dev/wp-content/uploads/2016/08/grid.jpg'
+	);
+ add_theme_support( 'custom-background' );
