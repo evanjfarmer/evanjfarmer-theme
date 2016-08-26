@@ -330,15 +330,27 @@ to display none.
     display: none; } }
 
   /*Custom changes*/
+  
 #top-bar-menu {
   position: fixed;
   z-index: auto;
   width: 100%;
   opacity: 0.7;
 }
-.hollow.button {
+.about.hollow.button {
   position: absolute;
-  margin-top: 140px;
+  margin-top: 165px;
+  margin-left: -100px;
+}
+.projects.hollow.button {
+  position: absolute;
+  margin-top: 165px;
+  margin-left: -60px;
+}
+.go.hollow.button {
+  position: absolute;
+  margin-top: 165px;
+  margin-left: -20px;
 }
 /*.entry-content img {
   border-radius: 3%;
@@ -373,7 +385,7 @@ header, .full-width {
   padding-top: 0.25em;
 }
 .entry-content {
-  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/grid.jpg");
+  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/graph.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center; 
@@ -382,23 +394,85 @@ header, .full-width {
   -o-background-size: cover;
   background-size: cover;
 }
-@media only screen and (max-width: 1380px) {
-    .header_sidebar {
-      margin-top:100px;
+.entry-content .intro {
+  margin-top: 50px;
+}
+.footer {
+  margin: 0px;
+}
+footer {
+  background-image: url('http://redcedarbirth.com/wp-content/uploads/2016/04/footer.jpg');
+}
+.so-widget-image {
+  margin-bottom: -34px;
+}
+/*********************
+MEDIA QUERIES
+*********************/
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+}
+@media only screen and (max-width: 800px) {
+    .top-bar #top-bar-menu {
+      display: none;
     }
 }
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 1285px) {
+    .header_sidebar {
+      margin-top:10px;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .header_sidebar {
+      margin-top:55px;
+    }
+}
+@media only screen and (max-width: 975px) {
+    .header_sidebar {
+      margin-top:125px;
+    }
+}
+@media only screen and (max-width: 700px) {
     .header_sidebar {
       margin-top:150px;
     }
 }
 @media only screen and (max-width: 525px) {
     .header_sidebar {
+      margin-top:175px;
+    }
+}
+@media only screen and (max-width: 660px) {
+      .sow-image-container {
+      margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 500px) {
+      .sow-image-container {
+      margin-bottom: 15px;
     }
 }
 @media only screen and (max-width: 750px) {
     .so-widget-sow-button-wire-dc733ea5a0ef .ow-button-base a{
       width: 400px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #top-bar-menu {
+      display: none;
     }
 }
 
