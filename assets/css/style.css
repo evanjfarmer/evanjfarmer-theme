@@ -330,53 +330,44 @@ to display none.
     display: none; } }
 
   /*Custom changes*/
-  
+
 #top-bar-menu {
   position: fixed;
   z-index: auto;
   width: 100%;
   opacity: 0.7;
 }
+h2, h4 {
+  font-family: 'Eczar', serif;
+}
+.hollow.button {
+  height: 40px;
+  border-radius: 5%;
+}
 .about.hollow.button {
   position: absolute;
-  margin-top: 165px;
+  margin-top: 200px;
   margin-left: -100px;
+  padding: 1px;
 }
 .projects.hollow.button {
   position: absolute;
-  margin-top: 165px;
-  margin-left: -60px;
+  margin-top: 200px;
+  margin-left: -50px;
+  padding: 1px;
 }
 .go.hollow.button {
   position: absolute;
-  margin-top: 165px;
-  margin-left: -20px;
-}
-/*.entry-content img {
-  border-radius: 3%;
-}
-.post img {
-opacity:0.5;
-filter:alpha(opacity=90); /* For IE8 and earlier */
-
-.post img:hover{
-opacity:1.0;
-filter:alpha(opacity=90); /* For IE8 and earlier */
--webkit-transition: all 2s ease;
--moz-transition: all 2s ease;
--ms-transition: all 2s ease;
--o-transition: all 2s ease;
-transition: all 2s ease;
+  margin-top: 200px;
+  padding: 1px;
 }
 .call {
   text-align: center;
 }
 header, .full-width {
   width: 100%;
+  height: 100%;
   background: #4780B1;
-}
-.headerimg {
-  margin-bottom: -175px;
 }
 .wrap {
   width: 70%;
@@ -384,7 +375,7 @@ header, .full-width {
   margin: 0 auto;
   padding-top: 0.25em;
 }
-.entry-content {
+body.home {
   background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/graph.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -394,68 +385,95 @@ header, .full-width {
   -o-background-size: cover;
   background-size: cover;
 }
-.entry-content .intro {
-  margin-top: 50px;
+.intro {
+  position: relative;
 }
 .footer {
   margin: 0px;
 }
 footer {
-  background-image: url('http://redcedarbirth.com/wp-content/uploads/2016/04/footer.jpg');
+  width: 100%;
+  height: 50%;
+  background: #4780B1;
 }
 .so-widget-image {
   margin-bottom: -34px;
 }
+.page-title {
+  display:none;
+}
+.tagline {
+  float: right;
+  margin-top: -250px;
+  margin-right: 50px;
+}
+/*********************
+PAGES
+*********************/
+#inner-content {
+  background: white;
+}
+.entry-title {
+  display: none;
+}
+.article-header {
+  display: none;
+}
+.comment-author {
+  background: white;
+}
 /*********************
 MEDIA QUERIES
 *********************/
-
-/* Small only */
-@media screen and (max-width: 39.9375em) {}
-
-/* Medium and up */
-@media screen and (min-width: 40em) {}
-
-/* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
-
-/* Large and up */
-@media screen and (min-width: 64em) {}
-
-/* Large only */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
-}
 @media only screen and (max-width: 800px) {
-    .top-bar #top-bar-menu {
+    #top-bar-menu {
       display: none;
     }
 }
-@media only screen and (max-width: 1285px) {
-    .header_sidebar {
-      margin-top:10px;
+@media only screen and (max-width: 1130px) {
+    .tagline {
+      padding-top:110px;
     }
 }
-@media only screen and (max-width: 1220px) {
-    .header_sidebar {
-      margin-top:55px;
+@media only screen and (max-width: 775px) {
+    .tagline {
+      padding-top:185px;
     }
 }
-@media only screen and (max-width: 975px) {
-    .header_sidebar {
-      margin-top:125px;
+@media only screen and (max-width: 615px) {
+    .tagline {
+      padding-top:200px;
     }
 }
-@media only screen and (max-width: 700px) {
-    .header_sidebar {
-      margin-top:150px;
+@media only screen and (max-width: 585px) {
+    .tagline {
+      padding-top:225px;
+      padding-left: 100px;
+      width: 100%;
     }
 }
-@media only screen and (max-width: 525px) {
-    .header_sidebar {
-      margin-top:175px;
-    }
+@media only screen and (max-width: 820px) {
+    .about.hollow.button, .projects.hollow.button, .go.hollow.button{
+      position: absolute;
+      margin-top: 165px;
+      margin-left: -100px;
+      padding: 1px;
 }
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 710px) {
+    .about.hollow.button, .projects.hollow.button, .go.hollow.button{
+      position: absolute;
+      margin-top: 140px;
+      margin-left: -90px;
+      padding: 1px;
+}
+@media only screen and (max-width: 639px) {
+    .about.hollow.button, .projects.hollow.button, .go.hollow.button{
+      position: absolute;
+      margin-top: 185px;
+      margin-left: -100px;
+      padding: 5px;
+}
+/*@media only screen and (max-width: 660px) {
       .sow-image-container {
       margin-bottom: 10px;
     }
@@ -470,11 +488,8 @@ MEDIA QUERIES
       width: 400px;
     }
 }
-@media only screen and (max-width: 800px) {
-    #top-bar-menu {
-      display: none;
-    }
-}
+*/
+
 
 
 

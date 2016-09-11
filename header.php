@@ -32,7 +32,6 @@
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
 	</head>
- 
 		
 	<body <?php body_class(); ?>>
 
@@ -51,17 +50,15 @@
 						 <!-- This navs will be applied to the topbar, above all content 
 							  To see additional nav styles, visit the /parts directory -->
 						 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-						 <br><br>
-						 <div class="headerimg">
-						 <a href="#"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="evanjfarmer webdev" /></a>
-						 </div>
-						 <div class="container-fluid header_sidebar"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widgets Area') ) : endif; ?></div><br>
-							 <div class="row">
-							 	<div class="headintro small-12 medium-4 large-12 text-center columns">
-							 	<H1></H1>
-							 	<p></p>
-							 	<p></p>
-							 	</div>
-							 </div>
+						<br><br>
+						<div class="row">
+						<div class="headerimg">
+							<a href="#"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="evanjfarmer webdev" /></a>
 						</div>
-					</header> <!-- end .header -->
+						<div class="tagline">
+							<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/allblacktag.png">
+						</div>
+						</div>
+					</div>
+				</div>
+			</header> <!-- end .header -->

@@ -27,7 +27,7 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 // require_once(get_template_directory().'/assets/functions/disable-emoji.php'); 
 
 // Adds site styles to the WordPress editor
-//require_once(get_template_directory().'/assets/functions/editor-styles.php'); 
+require_once(get_template_directory().'/assets/functions/editor-styles.php'); 
 
 // Related post function - no need to rely on plugins
 require_once(get_template_directory().'/assets/functions/related-posts.php'); 
@@ -42,6 +42,13 @@ require_once(get_template_directory().'/assets/functions/related-posts.php');
 // require_once(get_template_directory().'/assets/functions/admin.php');
 
 //Custom changes
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet', false ); 
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
 function wpse_remove_edit_post_link( $link ) {
 return '';
 }
