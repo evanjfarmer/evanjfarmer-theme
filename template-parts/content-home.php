@@ -9,6 +9,7 @@
 				<h2></h2>
 			</div>
 		</div>
+		&nbsp;
 		<div class="row">
 			<div class="intro small-12 medium-4 large-4 text-center columns">
 				<a href="/about" class="about hollow button"><h4><strong>About</strong></h4></a>
@@ -29,19 +30,25 @@
 				</div><br>
 			</div>
 		</div>
-		<div class="row">
+		&nbsp;
 			<div class="callout">
-		  		<h5>This is a callout.</h5>
-		 		<p>It has an easy to override visual style, and is appropriately subdued.</p>
-		  		<a href="#">It's dangerous to go alone, take this.</a>
+		  		<h4>Do you need a website for your small business, ecommerce store, or other online project?</h4>
+		 		<h5>Learn more about how you can do anything with WordPress!</h5>
+		 		&nbsp;
 		  		<div class="row">
 		  		<div class="learn small-12 medium-4 large-4 text-center columns">
+		  			<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/chart.png" alt="Chart Icon" width="200" height="200" />
+		  			<p>More than 25% the internet is powered by WordPress, and that number is growing!</p>
 		  			<a href="#" class="button">LEARN MORE</a>
 		  		</div>
-				<div class="learn small-12 medium-4 large-4 text-center columns">	  				
+				<div class="learn small-12 medium-4 large-4 text-center columns">
+					<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/tablet.png" alt="Tablet Icon" width="200" height="200" />
+					<p>Responsive design, easy to use for content managment, and lots of plug-ins and add-ons to help you do just about anything</p>				
 					<a href="#" class="button">LEARN MORE</a>
 		  		</div>
 		  		<div class="learn small-12 medium-4 large-4 text-center columns">
+		  			<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/magnifier.png" alt="Magnifier Icon"	width="200" height="200" />
+		  			<p>Search engine friendly, safe and secure, and <a href="https://wordpress.org/showcase/">trusted by many!</a></p>
 		  			<a href="#" class="button">LEARN MORE</a>
 				</div>
 			</div>

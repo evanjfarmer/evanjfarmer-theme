@@ -333,9 +333,16 @@ to display none.
 
 #top-bar-menu {
   position: fixed;
-  z-index: auto;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
+  z-index: 2;
+}
+.top-bar {
+  padding: 0;
+}
+.menu ul {
+  position: relative;
+  z-index: 1;
 }
 h2, h4 {
   font-family: 'Eczar', serif;
@@ -343,6 +350,9 @@ h2, h4 {
 .hollow.button {
   height: 40px;
   border-radius: 5%;
+}
+.entry-content img {
+  border-radius: 2%;
 }
 .about.hollow.button {
   position: absolute;
@@ -410,6 +420,26 @@ footer {
 /*********************
 PAGES
 *********************/
+.evanimg {
+  z-index: 1;
+}
+.entry-content.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+}
+h3 .about {
+  text-align: center;
+}
+.page-id-2 header {
+    display: none;
+}
+.page-id-29 header {
+  display: none;
+}
+.trees {
+  margin-top: 32px;
+}
 #inner-content {
   background: white;
 }
@@ -421,6 +451,9 @@ PAGES
 }
 .comment-author {
   background: white;
+}
+.wpcf7 {
+    width: 50%;
 }
 /*********************
 MEDIA QUERIES

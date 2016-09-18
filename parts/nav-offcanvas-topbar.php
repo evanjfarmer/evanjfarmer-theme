@@ -2,9 +2,10 @@
 	 and a topbar for medium-up -->
 
 <div class="top-bar" id="top-bar-menu">
+	<a href="/"><img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/navicon.jpg"></a>
 	<div class="top-bar-left float-left">
 		<ul class="menu">
-			<li><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+			<li><a href="<?php echo home_url(); ?>"></a></li>
 		</ul>
 	</div>
 	<div class="top-bar-right show-for-medium">
