@@ -5,7 +5,10 @@
 		    						<?php joints_footer_links(); ?>
 		    					</nav>
 		    				</div>
+
 							<div class="large-12 medium-12 columns">
+								<img class="ejfimg" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/cropped-icon.jpg" alt="ejf webdev" width="200" height="200"/>
+							</div>
 								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
 							</div>
 						</div> <!-- end #inner-footer -->

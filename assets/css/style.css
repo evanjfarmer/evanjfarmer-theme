@@ -344,8 +344,35 @@ to display none.
   position: relative;
   z-index: 1;
 }
-h2, h4 {
+h1, h2, h3, h4, h5, h6, p {
   font-family: 'Eczar', serif;
+}
+header, .full-width {
+  width: 100%;
+  height: 100%;
+  background: #4780B1;
+}
+.headerimg {
+  margin-bottom: 5px;
+}
+.wrap {
+  width: 70%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding-top: 0.25em;
+}
+body.home {
+  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/graph.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.intro {
+  position: relative;
 }
 .hollow.button {
   height: 40px;
@@ -373,39 +400,35 @@ h2, h4 {
 }
 .call {
   text-align: center;
+  color: white;
 }
-header, .full-width {
-  width: 100%;
-  height: 100%;
-  background: #4780B1;
+.callout-title {
+  background-color: #0E54FC;
+  padding: 10px;
+  text-shadow: 2px 2px #000000;
 }
-.wrap {
-  width: 70%;
-  max-width: 24em;
-  margin: 0 auto;
-  padding-top: 0.25em;
+.callout {
+  text-align: center;
+  background-color: #25408E;
 }
-body.home {
-  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/graph.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.intro {
-  position: relative;
+.more {
+  color: white;
+  text-shadow: 2px 2px #000000;
 }
 .footer {
   margin: 0px;
-}
-footer {
-  width: 100%;
-  height: 50%;
   background: #4780B1;
 }
+.ejfimg {
+  margin-top: 20px;
+  float: right;
+}
+/*footer {
+  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/09/BlueSea.png");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}*/
 .so-widget-image {
   margin-bottom: -34px;
 }
@@ -451,9 +474,6 @@ h3 .about {
 }
 .comment-author {
   background: white;
-}
-.wpcf7 {
-    width: 50%;
 }
 /*********************
 MEDIA QUERIES

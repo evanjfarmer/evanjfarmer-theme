@@ -31,24 +31,28 @@
 			</div>
 		</div>
 		&nbsp;
+			<div class="callout-title">
+				<h3 class="call"><strong>Do you need a website for your small business, ecommerce store, or other online project?</strong></h3>
+				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("extra-widget-area") ) : ?>
+				<?php endif; ?> 
+			</div>
 			<div class="callout">
-		  		<h4>Do you need a website for your small business, ecommerce store, or other online project?</h4>
-		 		<h5>Learn more about how you can do anything with WordPress!</h5>
+		 		<h4 class="more"><strong>Learn more about how you can do anything with WordPress!</strong></h4>
 		 		&nbsp;
 		  		<div class="row">
 		  		<div class="learn small-12 medium-4 large-4 text-center columns">
 		  			<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/chart.png" alt="Chart Icon" width="200" height="200" />
-		  			<p>More than 25% the internet is powered by WordPress, and that number is growing!</p>
+		  			<h4><strong>More than 25% the internet is powered by WordPress, and that number is growing!</strong></h4>
 		  			<a href="#" class="button">LEARN MORE</a>
 		  		</div>
 				<div class="learn small-12 medium-4 large-4 text-center columns">
 					<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/tablet.png" alt="Tablet Icon" width="200" height="200" />
-					<p>Responsive design, easy to use for content managment, and lots of plug-ins and add-ons to help you do just about anything</p>				
+					<h4><strong>Responsive design, easy to use for content managment, and lots of plug-ins and add-ons to help you do just about anything</srong></h4>				
 					<a href="#" class="button">LEARN MORE</a>
 		  		</div>
 		  		<div class="learn small-12 medium-4 large-4 text-center columns">
 		  			<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/magnifier.png" alt="Magnifier Icon"	width="200" height="200" />
-		  			<p>Search engine friendly, safe and secure, and <a href="https://wordpress.org/showcase/">trusted by many!</a></p>
+		  			<h4><strong>Search engine friendly, safe and secure, and <a href="https://wordpress.org/showcase/">trusted by many!</a></strong></h4>
 		  			<a href="#" class="button">LEARN MORE</a>
 				</div>
 			</div>
