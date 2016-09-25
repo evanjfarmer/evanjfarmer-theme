@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		
+		<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
 		<!-- Force IE to use the latest rendering engine available -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -56,7 +56,7 @@
 							<a href="#"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="evanjfarmer webdev" /></a>
 						</div>
 						<div class="tagline">
-							<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/allblacktag.png">
+							<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/tag-1.png">
 						</div>
 						</div>
 					</div>

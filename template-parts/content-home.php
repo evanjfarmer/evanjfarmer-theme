@@ -34,10 +34,26 @@
 			<div class="callout-title">
 				<h3 class="call"><strong>Do you need a website for your small business, ecommerce store, or other online project?</strong></h3>
 				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("extra-widget-area") ) : ?>
-				<?php endif; ?> 
+				<?php endif; ?><br>
+				&nbsp;
+				<h4 class="call"><strong>Let's build a platform for your project or product, that will engage your fans and increase your following.</strong></h4>
+			</div>
+			<div class="iconic row">
+				<br>
+				&nbsp;
+				<div class="small-6 large-3 columns">
+				<img class="icon" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/img-crop.png" alt="Image Crop Icon" width="200" height="200" /></div>
+				<div class="small-6 large-3 columns">
+				<img class="icon" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/light-bulb.png" alt="Light Bulb Icon" width="200" height="200" /></div>
+				<div class="small-6 large-3 columns">
+				<img class="icon" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/like.png" alt="Like Icon" width="200" height="200" /></div>
+				<div class="small-6 large-3 columns">
+				<img class="icon" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/basket.png" alt="Basket Icon" width="200" height="200" /></div>
+				&nbsp;
+				&nbsp;
 			</div>
 			<div class="callout">
-		 		<h4 class="more"><strong>Learn more about how you can do anything with WordPress!</strong></h4>
+		 		<h2 class="more"><strong>Learn more about how you can do anything with WordPress!</strong></h2>
 		 		&nbsp;
 		  		<div class="row">
 		  		<div class="learn small-12 medium-4 large-4 text-center columns">

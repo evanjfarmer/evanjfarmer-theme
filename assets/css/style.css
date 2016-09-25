@@ -398,14 +398,28 @@ body.home {
   margin-top: 200px;
   padding: 1px;
 }
-.call {
+.call, .more {
   text-align: center;
   color: white;
+  font-family: 'Scope One', serif;
 }
 .callout-title {
   background-color: #0E54FC;
   padding: 10px;
-  text-shadow: 2px 2px #000000;
+}
+.iconic {
+  background-color: white;
+  opacity: 0.8;
+}
+div.iconic.row {
+  max-width: 100rem
+}
+img.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .callout {
   text-align: center;

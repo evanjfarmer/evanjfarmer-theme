@@ -13,7 +13,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 	<div class="trees row">
-		<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/3leaves.jpg" alt="Black and White Leaves" width="1200" height="560" />
+		<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/3leaves.jpg" alt="Black and White Leaves" width="1400" height="560" />
 	</div>
 	&nbsp;
 	<div class="about entry-content">
