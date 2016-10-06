@@ -111,3 +111,4 @@ if (function_exists('register_sidebar')) {
 	'default-image'          => 'http://www.evanjfarmer.dev/wp-content/uploads/2016/08/grid.jpg'
 	);
  add_theme_support( 'custom-background' );
+ 

@@ -398,15 +398,6 @@ body.home {
   margin-top: 200px;
   padding: 1px;
 }
-.call, .more {
-  text-align: center;
-  color: white;
-  font-family: 'Scope One', serif;
-}
-.callout-title {
-  background-color: #0E54FC;
-  padding: 10px;
-}
 .iconic {
   background-color: white;
   opacity: 0.8;
@@ -414,20 +405,62 @@ body.home {
 div.iconic.row {
   max-width: 100rem
 }
+div.iconic.row p {
+  text-align: center;
+  font-size: large;
+  font-family: 'Scope One', serif;
+}
 img.icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
-  padding-bottom: 20px;
+  opacity: none;
+}
+.learn_more {
+
+}
+.basket-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 .callout {
   text-align: center;
   background-color: #25408E;
+  margin: auto;
+}
+.call.container {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.call {
+  text-align: left;
+  color: white;
+  font-family: 'Scope One', serif;
+  text-shadow: 2px 2px #000000;
 }
 .more {
+  text-align: right;
   color: white;
+  font-family: 'Scope One', serif;
   text-shadow: 2px 2px #000000;
+}
+.callout-title {
+  background-color: #464442;
+  padding: 10px;
+}
+.bombs-away {
+  text-align: center;
+  color: white;
+  font-family: 'Scope One', serif;
+  text-shadow: 2px 2px #000000;
+  background-color: white;
+  opacity: 0.9;
+}
+div.bombs-away.row {
+  max-width: 100rem;
 }
 .footer {
   margin: 0px;
@@ -436,6 +469,7 @@ img.icon {
 .ejfimg {
   margin-top: 20px;
   float: right;
+  border-radius: 50%;
 }
 /*footer {
   background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/09/BlueSea.png");
@@ -474,6 +508,12 @@ h3 .about {
 .page-id-29 header {
   display: none;
 }
+.page-id-46 header {
+  display: none;
+}
+.page-id-44 header {
+  display: none;
+}
 .trees {
   margin-top: 32px;
 }
@@ -500,6 +540,7 @@ MEDIA QUERIES
 @media only screen and (max-width: 1130px) {
     .tagline {
       padding-top:110px;
+      padding-bottom: 20px;
     }
 }
 @media only screen and (max-width: 775px) {
@@ -540,14 +581,14 @@ MEDIA QUERIES
       margin-left: -100px;
       padding: 5px;
 }
-/*@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 660px) {
       .sow-image-container {
       margin-bottom: 10px;
     }
 }
 @media only screen and (max-width: 500px) {
       .sow-image-container {
-      margin-bottom: 15px;
+      margin-bottom: 35px;
     }
 }
 @media only screen and (max-width: 750px) {
@@ -555,8 +596,32 @@ MEDIA QUERIES
       width: 400px;
     }
 }
-*/
-
-
-
-
+@media only screen and (max-width: 500px) {
+  div.more.row {
+    margin-top: -60px;
+}
+@media only screen and (max-width: 639px) {
+    .columns.small-11.medium-8, h2 {
+      font-size: xx-large;
+    }
+}
+/*@media only screen and (min-width: 800px) {
+    .callout-title h2, h3 {
+      font-size: x-large;
+    }
+}*/
+/*@media only screen and (max-width: 565px) {
+    .callout-title h2, h3{
+      font-size: x-large;
+    }
+}*/
+@media only screen and (max-width: 565px) {
+    .so-widget-sow-image-default-1c389ca87c1a .sow-image-container {
+      display:none;
+    }
+}
+@media only screen and (min-width: 830px ) {
+    .more.columns.small-10 {
+      width: 60%;
+    }
+}
