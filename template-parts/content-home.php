@@ -5,7 +5,6 @@
 		<?php get_template_part( 'nav', '2' );      // Navigation bar #2 (nav-2.php) ?>
 		<div class="container-fluid header_sidebar"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Widgets Area') ) : endif; ?></div><br>
 			</div>
-		</div>
 		&nbsp;
 		<div class="row">
 			<div class="intro small-12 medium-4 large-4 text-center columns">
@@ -76,8 +75,8 @@
 		  			<br>
 		  		</div>
 				<div class="learn small-12 medium-4 large-4 text-center columns">
-					<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/tablet.png" alt="Tablet Icon" width="150" height="150" /</br>
-					<br><h4><strong>Responsive design, easy to use for content managment, and lots of plug-ins and add-ons to help you do just about anything</srong></h4>				
+					<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/tablet.png" alt="Tablet Icon" width="150" height="150" /></br>
+					<br><h4><strong>Responsive design, easy to use for content managment, and lots of plug-ins and add-ons to help you do just about anything</strong></h4>				
 					<br><a href="#" class="button">LEARN MORE</a><br><br>
 		  		</div>
 		  		<div class="learn small-12 medium-4 large-4 text-center columns">
