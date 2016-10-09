@@ -5,6 +5,8 @@
 	<div id="inner-content" class="row">
 
 		<main id="main" class="large-8 medium-8 columns" role="main">
+
+			<h2><?php single_post_title( '' ); ?></h2>
 		
 		    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
