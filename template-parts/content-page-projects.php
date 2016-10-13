@@ -16,21 +16,25 @@
 	<div class="projects entry-content">
 		<div class="row">
   		<div class="red-cedar small-12 large-4 columns">
+        &nbsp;
   			<a href="http://www.redcedarbirth.com"><h3>Red Cedar Birth</h3></a>
   			<a href="http://www.redcedarbirth.com"><img class="red-cedar" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/red-cedar-site.jpg" alt="Red Cedar Site" width="500" height="400"/></a>
   			<h4></h4>
   			<h5></h5>
   		</div>
 		<div class="red-cedar-info small-12 large-4 columns">
-  			<h4>The Red Cedar Birth website was developed to serve as a resource for expectant mothers.</h4><br><h4> It features an ecommerce web store, a community resource page, and event calendar.</h4>
+        &nbsp;
+  			<h4>The Red Cedar Birth website was developed to serve as a resource for expectant mothers.</h4><br><h4> It features an ecommerce web store, a community resource page, and event calendar.</h4><br><h4><--Click to check it out!--></h4>
   			<h5></h5> 
   		</div>
       <div class="red-cedar-store small-12 large-4 columns">
+        &nbsp;
         <a href="http://www.redcedarbirth.com"><img class="red-cedar" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/red-cedar-store.jpg" alt="Red Cedar Store" width="500" height="400"/></a>
         <h4></h4>
         <h5></h5>
       </div>
   	</div>
+    &nbsp;
     <div class="more-soon">
     <h3>More portfolio pieces and project features coming soon!</h3>
     </div>
