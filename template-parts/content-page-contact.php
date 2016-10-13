@@ -13,15 +13,18 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 	<div class="trees row">
-		<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/3leaves.jpg" alt="Black and White Leaves" width="1200" height="560" />
+		<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/contact-header.jpg" alt="Blocks" width="1200" height="560" />
+	&nbsp;
 	</div>
-	<div class="contact entry-content">
-		<div class="row">
-			<div class="small-8 large-6 columns">
+	<div class="entry-content">
+		<div class="contact-info row">
+			<h1>If you'd like more info...</h1>
+			<div class="small-12 large-6 columns">
 				<?php echo do_shortcode('[contact-form-7 id="50" title="Contact form 1"]'); ?>
 			</div>
-			<div class="small-4 large-6 columns">
+			<div class="contact small-12 large-6 columns">
 				<h1>Contact Us</h1>
+				<img class="contact-smartphone" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/contact-smartphone.jpg" alt="Smartphone Icon" width="240" height="240" />
 			</div>
 		</div>
 	</div><!-- .entry-content -->
