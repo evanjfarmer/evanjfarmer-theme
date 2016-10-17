@@ -31,8 +31,6 @@
 
 		<?php wp_head(); ?>
 
-		<!-- Drop Google Analytics here -->
-		<!-- end analytics -->
 	</head>
 		
 	<body <?php body_class(); ?>>

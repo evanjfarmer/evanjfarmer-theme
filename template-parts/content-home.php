@@ -29,9 +29,8 @@
 		&nbsp;
 			<div class="callout-title">
 				<div class="call row">
-					<div class="columns small-11 medium-8">
+					<div class="columns small-12 medium-8">
 					<h2><strong>Do you need a website for your small business, ecommerce store, or other online endeavors?</strong></h2></div>
-					<div class="columns small-1 medium-4"></div>
 				</div>
 				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("extra-widget-area") ) : ?>
 

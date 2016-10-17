@@ -449,6 +449,7 @@ img.icon {
   color: white;
   font-family: 'Scope One', serif;
   text-shadow: 2px 2px #000000;
+  margin-bottom: -120px;
 }
 .more {
   text-align: right;
@@ -626,8 +627,8 @@ MEDIA QUERIES
     }
 }
 @media only screen and (max-width: 500px) {
-      .sow-image-container {
-      margin-bottom: 35px;
+      .sow-image-container .so-widget-image{
+      margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 750px) {
@@ -644,16 +645,7 @@ MEDIA QUERIES
       font-size: xx-large;
     }
 }
-/*@media only screen and (min-width: 800px) {
-    .callout-title h2, h3 {
-      font-size: x-large;
-    }
-}*/
-/*@media only screen and (max-width: 565px) {
-    .callout-title h2, h3{
-      font-size: x-large;
-    }
-}*/
+/*Display one less brick on mobile*/
 @media only screen and (max-width: 565px) {
     .so-widget-sow-image-default-1c389ca87c1a .sow-image-container {
       display:none;
@@ -664,3 +656,13 @@ MEDIA QUERIES
       width: 60%;
     }
 }
+/*@media only screen and (min-width: 800px) {
+    .callout-title h2, h3 {
+      font-size: x-large;
+    }
+}*/
+/*@media only screen and (max-width: 565px) {
+    .callout-title h2, h3{
+      font-size: x-large;
+    }
+}*/
