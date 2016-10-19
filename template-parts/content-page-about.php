@@ -23,7 +23,7 @@
   			<hr>
   			<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/evanandkoren.jpg" alt="Evan and Koren" width="300" height="300" /><br>
   			<h4><i>our team</i></h4>
-  			<h5>Koren and Evan Farmer have been working together for the last ten years, in marriage and in parenthood...but also artistically and more recently, through entrepreneurship.</h5><h5>Evan has been working with WordPress as a blogging platform, business development tool and content management system since 2011, and in the last few years, for web design and development.</h5><h5>Being versatile and experienced with various tools for design, Koren can help with logo creation, color scheme selection, and other visual elements of your site.</h5>
+  			<h5>Koren and Evan Farmer have been working together for the last ten years, in marriage and in parenthood...but also artistically and more recently, through entrepreneurship.</h5><h5>Evan has been using WordPress for blogging and photo sharing, as a business development tool and CMS since 2011; and in the last few years, for professional web design and development as well.</h5><h5>Being versatile and experienced with various tools for design, Koren can help with logo creation, color scheme selection, and other visual elements.</h5>
   		<hr>
   		</div>
   		<div class="services small-12 large-4 columns">
@@ -31,7 +31,7 @@
   			<hr>
   			<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/EMap1.jpg" alt="Map" width="300" height="300"/><br>
   			<h4><i>what we do</i></h4>
-  			<h5>Evan and his wife Koren will work together to craft a beautiful, responsive, functional, and very useful website for you. We use WordPress to help you keep fresh content up and engage with your fans and friends!</h5><h5>Koren takes care of the design work, while Evan maps the plans for your site, covering everything from domain and hosting choices, to the handling of security, site backups, updates, and maintanence.</h5>
+  			<h5>Evan and Koren will work together to craft a beautiful, responsive, functional, and very useful website for you. We use WordPress to help you keep fresh content up and engage with your fans and friends across all web and social platforms!</h5><h5>Koren takes care of the design work, while Evan maps the plans for your site, covering everything from domain and hosting choices, to the handling of security, site backups, updates, maintanence, and analytics.</h5>
   			<h5><a href="/contact">Get in Touch</a> with us and let's talk about a project you'd like to start!</h5>
   		<hr>
   		</div>

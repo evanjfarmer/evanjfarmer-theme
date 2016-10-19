@@ -18,15 +18,16 @@
 	</div>
 	<div class="entry-content">
 		<div class="contact-info row">
-			<h1>If you'd like more info...</h1>
+			<h1>Let's build something!</h1><br>
 			<div class="small-12 large-6 columns">
+				<h2>If you'd like more info...</h2>
 				<?php echo do_shortcode('[contact-form-7 id="50" title="Contact form 1"]'); ?>
 			</div>
 			<div class="contact small-12 large-6 columns">
 				<img class="contact-smartphone" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/contact-smartphone.jpg" alt="Smartphone Icon" width="240" height="240" />
 				<div>
 				&nbsp;
-			<h1>Contact Us</h1>
+			<h2>Contact Us</h2>
 			</div>
 		</div>
 	</div><!-- .entry-content -->

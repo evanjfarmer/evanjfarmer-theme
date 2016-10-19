@@ -344,11 +344,15 @@ to display none.
   position: relative;
   z-index: 1;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3 {
   font-family: 'Eczar', serif;
 }
 li {
-  font-family: 'Scope One', serif;
+  font-family: 'Lato', sans-serif;;
+}
+h4, h5, h6 {
+  font-size: 20px; !important
+  font-family: 'Lato', sans-serif;
 }
 header, .full-width {
   width: 100%;
@@ -377,12 +381,21 @@ body.home {
 .intro {
   position: relative;
 }
+.evanimg img {
+  z-index: 1;
+  border-radius: 2%;
+}
+.portfolioimg img {
+  z-index: 1;
+  border-radius: 2%;
+}
+.letsgoimg img {
+  z-index: 1;
+  border-radius: 2%;
+}
 .hollow.button {
   height: 40px;
   border-radius: 5%;
-}
-.entry-content img {
-  border-radius: 2%;
 }
 .about.hollow.button {
   position: absolute;
@@ -427,7 +440,8 @@ img.icon {
   opacity: none;
 }
 .learn_more {
-
+  color: #FFFFFF;
+  text-shadow: 2px 2px #000000;
 }
 .basket-icon {
   display: block;
@@ -461,17 +475,6 @@ img.icon {
   background-color: #464442;
   padding: 10px;
 }
-.bombs-away {
-  text-align: center;
-  color: white;
-  font-family: 'Scope One', serif;
-  text-shadow: 2px 2px #000000;
-  background-color: white;
-  opacity: 0.9;
-}
-div.bombs-away.row {
-  max-width: 100rem;
-}
 .footer {
   margin: 0px;
   background: #4780B1;
@@ -501,9 +504,6 @@ div.bombs-away.row {
 /*********************
 PAGES
 *********************/
-.evanimg {
-  z-index: 1;
-}
 .entry-content.about img {
   display: block;
   margin-left: auto;
