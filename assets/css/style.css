@@ -348,7 +348,7 @@ h1, h2, h3 {
   font-family: 'Eczar', serif;
 }
 li {
-  font-family: 'Lato', sans-serif;;
+  font-family: 'Lato', sans-serif;
 }
 h4, h5, h6 {
   font-size: 20px; !important
@@ -367,16 +367,6 @@ header, .full-width {
   max-width: 24em;
   margin: 0 auto;
   padding-top: 0.25em;
-}
-body.home {
-  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/08/graph.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .intro {
   position: relative;
@@ -421,8 +411,10 @@ body.home {
   position: absolute;
 }
 .iconic {
-  background-color: white;
-  opacity: 0.8;
+    /* default fallback */
+  background: rgb(255, 255, 255) transparent;
+  /* nice browsers */
+  background: rgba(255, 255, 255, 0.7);
 }
 div.iconic.row {
   max-width: 100rem
@@ -438,6 +430,9 @@ img.icon {
   margin-right: auto;
   padding-top: 20px;
   opacity: none;
+}
+.learn h4 {
+  color: #f5f5f5;
 }
 .learn_more {
   color: #FFFFFF;
@@ -638,7 +633,7 @@ MEDIA QUERIES
 }
 @media only screen and (max-width: 500px) {
   div.more.row {
-    margin-top: -60px;
+    margin-top: -40px;
 }
 @media only screen and (max-width: 639px) {
     .columns.small-11.medium-8, h2 {
