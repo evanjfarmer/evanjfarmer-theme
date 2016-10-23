@@ -21,7 +21,7 @@
 			<h1>Let's build something!</h1><br>
 			<div class="small-12 large-6 columns">
 				<h2>If you'd like more info...</h2>
-				<?php echo do_shortcode('[contact-form-7 id="50" title="Contact form 1"]'); ?>
+				<?php echo do_shortcode('[caldera_form id="CF580ae4a72d264"]'); ?>
 			</div>
 			<div class="contact small-12 large-6 columns">
 				<img class="contact-smartphone" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/contact-smartphone.jpg" alt="Smartphone Icon" width="240" height="240" />

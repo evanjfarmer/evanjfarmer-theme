@@ -4,13 +4,14 @@
 								<nav role="navigation">
 		    						<?php joints_footer_links(); ?>
 		    					</nav>
-		    					<div class="hello">
-		    				
-		    					</div>
 		    				</div>
-
-							<div class="large-12 medium-12 columns">
-								<img class="ejfimg" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/cropped-icon.jpg" alt="ejf webdev" width="200" height="200"/>
+		    				<div class="row">
+			    				<div class="large-6 medium-6 small-6 columns">
+			    					<?php echo do_shortcode('[mc4wp_form id="195"]'); ?>
+			    				</div>
+								<div class="large-6 medium-6 small-6 columns">
+									<img class="ejfimg" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/09/cropped-icon.jpg" alt="ejf webdev" width="200" height="200"/>
+								</div>
 							</div>
 
 								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
