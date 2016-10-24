@@ -411,13 +411,21 @@ header, .full-width {
   position: absolute;
 }
 .iconic {
+  /* default fallback */
+  background: rgb(255, 255, 255) transparent;
+  /* nice browsers */
+  background: rgba(255, 255, 255, 0.1);
+}
+div.home-slider.row {
     /* default fallback */
   background: rgb(255, 255, 255) transparent;
   /* nice browsers */
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 90rem;
+  margin-bottom: 20px;
 }
 div.iconic.row {
-  max-width: 100rem
+  max-width: 100%;
 }
 div.iconic.row p {
   text-align: center;
@@ -601,6 +609,7 @@ MEDIA QUERIES
       margin-top: 165px;
       margin-left: -100px;
       padding: 1px;
+    }
 }
 @media only screen and (max-width: 710px) {
     .about.hollow.button, .projects.hollow.button, .go.hollow.button{
@@ -608,6 +617,7 @@ MEDIA QUERIES
       margin-top: 140px;
       margin-left: -90px;
       padding: 1px;
+    }
 }
 @media only screen and (max-width: 639px) {
     .about.hollow.button, .projects.hollow.button, .go.hollow.button{
@@ -615,14 +625,15 @@ MEDIA QUERIES
       margin-top: 185px;
       margin-left: -100px;
       padding: 5px;
+    }
 }
 @media only screen and (max-width: 660px) {
-      .sow-image-container {
+    .sow-image-container {
       margin-bottom: 10px;
     }
 }
 @media only screen and (max-width: 500px) {
-      .sow-image-container .so-widget-image{
+    .sow-image-container .so-widget-image{
       margin-bottom: 20px;
     }
 }
@@ -632,8 +643,9 @@ MEDIA QUERIES
     }
 }
 @media only screen and (max-width: 500px) {
-  div.more.row {
-    margin-top: -40px;
+    div.more.row {
+      margin-top: -40px;
+    }
 }
 @media only screen and (max-width: 639px) {
     .columns.small-11.medium-8, h2 {
@@ -646,7 +658,7 @@ MEDIA QUERIES
       display:none;
     }
 }
-@media only screen and (min-width: 830px ) {
+@media only screen and (min-width: 830px) {
     .more.columns.small-10 {
       width: 60%;
     }
