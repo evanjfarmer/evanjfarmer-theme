@@ -533,6 +533,9 @@ PAGES
 .trees {
   margin-top: 32px;
 }
+div.blue-projects.row {
+  margin-top: 32px;
+}
 #inner-content {
   background: white;
 }
@@ -558,6 +561,9 @@ img.red-cedar {
 }
 .red-cedar-store {
   margin-top: 50px;
+}
+.webstore-mobile {
+  text-align: right;
 }
 .more-soon {
   text-align: center;
