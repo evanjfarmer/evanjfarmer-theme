@@ -536,6 +536,13 @@ PAGES
 div.blue-projects.row {
   margin-top: 32px;
 }
+h1.projects-title {
+  text-align: center;
+}
+h4.check-it {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 #inner-content {
   background: white;
 }
@@ -564,6 +571,13 @@ img.red-cedar {
 }
 .webstore-mobile {
   text-align: right;
+}
+img.wp-meetup {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .more-soon {
   text-align: center;
