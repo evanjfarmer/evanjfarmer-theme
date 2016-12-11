@@ -10,7 +10,7 @@
 			    					<?php if ( function_exists( 'mc4wp_form' ) ) { mc4wp_form( '210' ); } ?>
 			    				</div>
 								<div class="large-6 medium-6 small-6 columns">
-									<img class="ejfimg" src="http://www.evanjfarmer.com/wp-content/uploads/2016/09/cropped-icon.jpg" alt="ejf webdev" width="200" height="200"/>
+									<img class="ejfimg" src="https://www.evanjfarmer.com/wp-content/uploads/2016/09/cropped-icon.jpg" alt="ejf webdev" width="200" height="200"/>
 								</div>
 							</div>
 

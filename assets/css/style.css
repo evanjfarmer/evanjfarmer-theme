@@ -487,12 +487,6 @@ img.icon {
   float: right;
   border-radius: 50%;
 }
-/*footer {
-  background-image: url("http://www.evanjfarmer.dev/wp-content/uploads/2016/09/BlueSea.png");
-  width: 100%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}*/
 .so-widget-image {
   margin-bottom: -34px;
 }
@@ -503,6 +497,23 @@ img.icon {
   float: right;
   margin-top: -250px;
   margin-right: 50px;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-image: linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+}
+hr.last {
+  margin-top: 12px;
+}
+.services img {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*********************
 PAGES
@@ -591,6 +602,9 @@ img.contact-smartphone {
 }
 .widgettitle {
   text-align: left;
+}
+.so-widget-sow-social-media-buttons-flat-74f2cf885303 .social-media-button-container {
+  margin-right: 10px;
 }
 /********************
 MEDIA QUERIES

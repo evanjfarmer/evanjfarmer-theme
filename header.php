@@ -56,10 +56,10 @@
 						<br><br>
 						<div class="row">
 						<div class="headerimg">
-							<a href="http://www.evanjfarmer.com"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="evanjfarmer webdev" /></a>
+							<a href="https://www.evanjfarmer.com"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="evanjfarmer webdev" /></a>
 						</div>
 						<div class="tagline">
-							<img src="http://www.evanjfarmer.com/wp-content/uploads/2016/09/tag-1.png">
+							<img src="https://www.evanjfarmer.com/wp-content/uploads/2016/09/tag-1.png">
 						</div>
 						</div>
 					</div>

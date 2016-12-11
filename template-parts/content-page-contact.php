@@ -13,7 +13,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 	<div class="trees row">
-		<img src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/contact-header.jpg" alt="Blocks" width="1200" height="560" />
+		<img src="https://www.evanjfarmer.com/wp-content/uploads/2016/10/contact-header.jpg" alt="Blocks" width="1200" height="560" />
 	&nbsp;
 	</div>
 	<div class="entry-content">
@@ -24,7 +24,7 @@
 				<?php echo do_shortcode('[caldera_form id="CF580ae4a72d264"]'); ?>
 			</div>
 			<div class="contact small-12 large-6 columns">
-				<img class="contact-smartphone" src="http://www.evanjfarmer.dev/wp-content/uploads/2016/10/contact-smartphone.jpg" alt="Smartphone Icon" width="240" height="240" />
+				<img class="contact-smartphone" src="https://www.evanjfarmer.com/wp-content/uploads/2016/10/contact-smartphone.jpg" alt="Smartphone Icon" width="240" height="240" />
 				<div>
 				&nbsp;
 			<h2>Contact Us</h2>

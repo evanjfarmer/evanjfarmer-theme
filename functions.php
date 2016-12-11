@@ -101,7 +101,7 @@ if (function_exists('register_sidebar')) {
  add_action( 'after_setup_theme', 'evanjfarmer_setup' );
  $defaults = array(
 	'default-color'          => 'blue',
-	'default-image'          => 'http://www.evanjfarmer.dev/wp-content/uploads/2016/08/grid.jpg'
+	'default-image'          => 'https://www.evanjfarmer.dev/wp-content/uploads/2016/08/grid.jpg'
 	);
  add_theme_support( 'custom-background' );
  
