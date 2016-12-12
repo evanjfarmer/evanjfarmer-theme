@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css"/>
 		<meta name="msvalidate.01" content="D46A70353C8ABEE19606976A3A9842D9" />
 		<meta name="yandex-verification" content="79ea48a4ec44f7eb" />
+		<meta name="google-site-verification" content="_kxBxoDK_xxOL-GfdOQmpq2_ieb4Nzm3zyyoIJBZLYQ" />
 		<!-- Force IE to use the latest rendering engine available -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
